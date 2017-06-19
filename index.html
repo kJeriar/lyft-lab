@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AppLove with Flexbox</title>
+    <!-- Importa fontAwesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Importa la fuente del proyecto -->
+    <link href="https://fonts.googleapis.com/css?family=helvetica" rel="stylesheet">
+    <link rel="stylesheet" href="../themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../nivo-slider.css" type="text/css" media="screen" />     
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <!-- Enlaza tu CSS  -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>    
+</head>
+
+<body>
+
+<header>
+    <nav>
+    <div id="menus">
+        <div class="menu flex-container">
+            <div class="logo-container">
+                <img src="img/logo-white.png" class="logo" alt="Logo" width="70">
+            </div>
+
+            <a href="#" class="text-uppercase link">Drive</a>
+            <a href="#" class="text-uppercase link">Explore</a>
+            <a href="#" class="text-uppercase link">Help</a>
+            <button>Log in</button>                     
+        </div>
+    </div>
+
+    <!--menu reemplazante-->
+    <div id="menus2">
+        <div class="menu2 flex-container">
+            <div class="logo-container2">
+                <img src="img/logo-pink.png" class="logo2" alt="Logo" width="70">
+            </div>
+
+            <a href="#" class="text-uppercase link">Drive</a>
+            <a href="#" class="text-uppercase link">Explore</a>
+            <a href="#" class="text-uppercase link">Help</a>
+            <a href=""><button>Log in</button></a>
+            <span class="btn">Sig up</span>                     
+        </div>
+    </div>
+
+    </nav>  
+</header>
+
+        <!--primera caja -->
+
+        <section id="principal" class="flex-container">
+
+            <!--caja slider-->   
+
+            <div id="sliders" class="nivoSlider flex-container">               
+                <img src="img/slider.jpg" data-thumb="img/slider.jpg" alt="" />
+                <img src="img/slider2.png" data-thumb="img/slider2.png" alt="" title="This is an example of a caption" />
+                <img src="img/slider3.png" data-thumb="img/slider3.png" alt="" data-transition="slideInLeft" />             
+            </div>  
+            
+        </section>
+
+        
+        <!--tercera caja-->
+
+        <section id="box-3" class="flex-container"> 
+             <div class="row">
+                <div class="col-5">
+                    <h3>WATCH</h3>
+                    <h1>AMPLIFY YOUR RIDE</h1>
+                    <h2>Lyft’s new emblem, Amp, is the secret to smooth pickups. Lighting up dashboards nationwide, the device makes it easy for passengers and drivers to find each other.</h2>
+                </div>
+                 <div class="col-7 flex-container" align="right">
+                    <iframe src="img/hero-video.mp4" frameborder="0" width="700" height="400"></iframe>
+                </div>            
+        </section>
+
+            <!--cuarta caja-->
+
+        <section id="box-5" class="flex-container"> 
+            <div class="row">
+                <div class="col-7 flex-container" align="left">
+                    <iframe width="854" height="480" src="https://www.youtube.com/embed/v8nyGzOLsdw" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="col-5">
+                    <h3>WATCH</h3>
+                    <h1>AMPLIFY YOUR RIDE</h1>
+                    <h2>Lyft’s new emblem, Amp, is the secret to smooth pickups. Lighting up dashboards nationwide, the device makes it easy for passengers and drivers to find each other.</h2>
+                </div>
+            </div>  
+        </section>
+
+        <!--quinta caja-->
+
+        <section id="box-6" class="flex-container"> 
+            <div class="row">
+                <div class="col-6">
+                    <h3>LEARN MORE</h3>
+                    <h1>ROUND UP & DONATE</h1>
+                    <h2>Opt in and we’ll round up each fare to the nearest dollar, then donate the difference to a charitable cause of your choice.</h2>
+                </div>
+                <div class="col-6 flex-container">
+                    <iframe width="854" height="480" src="https://www.youtube.com/embed/xj2VWLV0xCU" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>  
+        </section>
+
+        <!--informacion-->
+
+        <section id="box-4" class="flex-container">
+            <div class="row">
+                <div class="col-2">
+                    <h1>DRIVE<br>RIDE<br>LOG IN</h1>
+                    <a href="https://help.lyft.com/hc/en-us" class="text-uppercase link">Help</a><br>
+                    <a href="https://www.lyft.com/cities" class="text-uppercase link">Cities</a><br>
+                    <a href="https://www.lyft.com/airports" class="text-uppercase link">Airports</a><br>
+                    <a href="https://www.lyft.com/fare-estimate" class="text-uppercase link">Fare Estimate</a><br>
+                    <a href="https://www.lyft.com/promo-coupon-code-free-rides" class="text-uppercase link">Free Ride Credits</a><br>
+                    <a href="https://www.lyft.com/driver-bonus" class="text-uppercase link">Driver Bonus</a><br>
+                    <a href="https://www.lyft.com/gift" class="text-uppercase link">Gift Cards</a>
+                </div>
+                <div class="col-2">
+                    <h1>PARTNER</h1>
+                    <a href="https://www.lyft.com/partnerships" class="text-uppercase link">Partnerships</a><br>
+                    <a href="https://www.lyft.com/business" class="text-uppercase link">Business</a><br>
+                    <a href="https://www.lyft.com/ambassador" class="text-uppercase link">Ambassadors</a><br>
+                    <a href="https://www.lyft.com/developers" class="text-uppercase link">Developers</a><br>
+                    <a href="https://www.lyft.com/events" class="text-uppercase link">Events</a>
+                </div>
+                <div id="imagen1" class="col-2">
+                    <h1>LEARN</h1>
+                    <a href="https://www.lyft.com/safety" class="text-uppercase link">Safety</a><br>
+                    <a href="https://blog.lyft.com/" class="text-uppercase link">Blog</a><br>
+                    <a href="https://www.lyft.com/press" class="text-uppercase link">Press</a><br>
+                    <a href="https://www.lyft.com/jobs" class="text-uppercase link">Careers</a><br>
+                    <a href="https://www.lyft.com/driver-application-requirements" class="text-uppercase link">Driver Requirements</a><br>
+                    <a href="https://www.lyft.com/driver-pay" class="text-uppercase link">Driver Earnings</a><br>
+                    <a href="https://www.lyft.com/driver-pay" class="text-uppercase link">Driving Jobs</a><br>
+                    <a href="https://www.lyft.com/round-up" class="text-uppercase link">Round Up & Donate</a>
+                </div>
+            
+                <div id="image" class="col-2" align="right">
+                    <a href="https://itunes.apple.com/us/app/lyft-on-demand-ridesharing/id529379082?mt=8" target="_blank"><img src="img/app.jpg" width="170" height="60"></a><br><br>
+                    <a href="https://play.google.com/store/apps/details?id=me.lyft.android" target="_blank"><img src="img/google-play.png" width="170" height="60"></a><br><br>
+                    <a href="https://www.amazon.com/Lyft-Taxi-App-Alternative/dp/B01M19LARV" target="_blank"><img src="img/amazon.png" width="170" height="60"></a><br><br>
+                    <a href="https://www.microsoft.com/es-cl/store/p/lyft/9pjks5v4v997?ocid=badge&rtc=1" target="_blank"><img src="img/microsoft.png" width="170" height="60"></a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="pie flex-container">
+                <div class="row">
+                    <div class="col-12" align="center">
+                        <a href="https://twitter.com/lyft" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a><a href="https://www.facebook.com/lyft" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a><a href="https://www.instagram.com/lyft/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="col-12" align="center">
+                        <div class="line"></div>
+                    </div>
+                    <div class="col-12" align="center">
+                        <p>© 2017 Lyft, Inc. Terms Privacy</p>
+                    </div>
+                </div>
+            </div>          
+        </footer>
+        
+ 
+    
+</body>
+</html>
